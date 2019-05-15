@@ -1,0 +1,18 @@
+{
+  "name": "reddit-aww-scraper",
+  "version": "1.0.0",
+  "description": "A simple NodeJS app to scrape and save images from the aww subreddit.",
+  "main": "app.js",
+  "dependencies": {
+    "rss-parser": "^3.7.0",
+    "sqlite3": "^4.0.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "setup": "node setup-database.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scraper": "node scraper.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
